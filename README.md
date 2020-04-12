@@ -2,6 +2,9 @@
 
 A concept app built in Flutterando Challenge.
 
+## Screenshot
+- [Product Page](app-gif.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
