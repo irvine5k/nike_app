@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nike_app/src/product/product_page.dart';
 import 'package:nike_app/src/product/widgets/size_option_widget.dart';
 
 class SizeOptionsRowWidget extends StatelessWidget {

@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:nike_app/src/product/product_page.dart';
 import 'package:nike_app/src/product/widgets/bottom_sheet_content_widget.dart';
 import 'package:nike_app/src/product/widgets/size_options_row_widget.dart';
 
