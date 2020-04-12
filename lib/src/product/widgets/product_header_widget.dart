@@ -10,10 +10,13 @@ class ProductHeaderWidget extends StatelessWidget {
   final VoidCallback toggleProductSide;
   final bool frontSelected;
 
+  bool isSmallScreen(context) => MediaQuery.of(context).size.height < 570;
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.6,
+      height: MediaQuery.of(context).size.height *
+          (isSmallScreen(context) ? 0.6 : 0.5),
       padding: EdgeInsets.symmetric(
         vertical: 20,
         horizontal: 10,

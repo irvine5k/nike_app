@@ -12,10 +12,10 @@ class BottomSheetContentWidget extends StatelessWidget {
     return Expanded(
       child: Container(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            ProductionDescriptionWidget(),
+            ProductDescriptionWidget(),
             BottomButtonWidget(),
           ],
         ),

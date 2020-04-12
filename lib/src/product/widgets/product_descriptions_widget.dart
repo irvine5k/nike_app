@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-class ProductionDescriptionWidget extends StatelessWidget {
-  const ProductionDescriptionWidget({
+class ProductDescriptionWidget extends StatelessWidget {
+  const ProductDescriptionWidget({
     Key key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      alignment: Alignment.center,
       padding: EdgeInsets.symmetric(
         horizontal: 20,
       ),
